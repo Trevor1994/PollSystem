@@ -12,13 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('pages/home');
 });
 
 Route::get('/create', function () {
-    return view('create');
+    return view('pages/create');
 });
 
 Route::get('/faq', function () {
-    return view('faq');
+    return view('pages/faq');
 });
