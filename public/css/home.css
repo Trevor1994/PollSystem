@@ -81,6 +81,11 @@ body {
   border-bottom-color: #fff;
 }
 
+.nav-masthead .dropdown {
+  float: right;
+  position: relative;
+}
+
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
@@ -103,7 +108,16 @@ body {
   font-weight: bold;
 }
 
+.active-polls {
+  text-align: left;
+  top: 150px;
+  position: absolute;
+}
 
+.closed-polls {
+  text-align: left;
+  position: absolute;
+}
 /*
  * Footer
  */

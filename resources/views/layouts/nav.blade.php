@@ -5,6 +5,7 @@
       <a class="nav-link active" href="#">Home</a>
       <a class="nav-link" href="#">Create Poll</a>
       <a class="nav-link" href="#">Help</a>
+      <a class="nav-link" href="#">Profile</a>
     </nav>
   </div>
 </div>
