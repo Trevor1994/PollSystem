@@ -32,11 +32,8 @@
               text, and add your own fullscreen background photo to make it your own.</p>
           </div>
 
-          <div class="mastfoot">
-           <div class="inner">
-             <small>&copy; Copyright 2017, Polls2Go</small>
-           </div>
-         </div>
+          @include ('layouts.footer')
+
        </div>
      </div>
    </div>
