@@ -24,16 +24,7 @@
 
         <div class="cover-container">
 
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Polls2Go</h3>
-              <nav class="nav nav-masthead">
-                <a class="nav-link active" href="#">Home</a>
-                <a class="nav-link" href="#">Create Poll</a>
-                <a class="nav-link" href="#">Help</a>
-              </nav>
-            </div>
-          </div>
+          @include ('layouts.nav')
 
           <div class="inner cover">
             <h1 class="cover-heading">Cover your page.</h1>
