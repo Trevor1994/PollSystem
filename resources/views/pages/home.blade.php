@@ -1,17 +1,15 @@
 @extends ('layouts.master')
 
 
-
 @section ('content')
 
-SDASDASDASD
+<div class="active-polls">
+  <h1 class="cover-heading">Active Polls</h1>
+</div>
 
-@endsection
+<div class="closed-polls">
+  <h1 class="cover-heading">Closed Polls</h1>
+</div>
 
-
-
-@section ('footer')
-
-SDASDASDASD
 
 @endsection
