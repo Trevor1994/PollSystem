@@ -110,12 +110,13 @@ body {
 
 .active-polls {
   text-align: left;
-  top: 150px;
+  top: -120px;
   position: absolute;
 }
 
 .closed-polls {
   text-align: left;
+  top: 70px;
   position: absolute;
 }
 /*
