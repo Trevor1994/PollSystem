@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/create', function () {
-    return view('pages/create');
+    return view('pages/create', 'PollsController@create');
 });
 
 Route::get('/faq', function () {
