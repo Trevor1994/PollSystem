@@ -2,6 +2,7 @@
 
 @section ('content')
 
+
 <h1>Create a Poll</h1>
 
 <hr>
