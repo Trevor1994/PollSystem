@@ -7,21 +7,6 @@ use Illuminate\Http\Request;
 class PollController extends Controller
 
 {
-
-    public function index()
-
-    {
-       return view('pages.index');
-    }
-
-
-    public function show()
-
-    {
-      return view('pages.show');
-    }
-
-
     public function create()
 
     {
@@ -32,6 +17,7 @@ class PollController extends Controller
 
     {
         // Create a new post using the request data
+        dd(request()->all());
 
         // Save it to the database
 

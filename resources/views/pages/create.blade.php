@@ -7,6 +7,8 @@
 <hr>
 
 <form method="POST" action="/polls">
+    {{ csrf_field() }}
+
   <div class="form-group">
     <label for="title">Title:</label>
     <input type="title" class="form-control" id="title" name="title">
@@ -17,11 +19,15 @@
     <textarea id="description" name="description" class="form-control"></textarea>
   </div>
 
-  <button type="button" class="btn btn-primary">Multi-Choice</button>
+  <button type="button" class="btn btn-secondary">Multi-Choice</button>
 
-  <button type="button" class="btn btn-primary">True/False</button>
+  <button type="button" class="btn btn-secondary">True/False</button>
 
-  <button type="button" class="btn btn-primary">Short Answer</button>
+  <button type="button" class="btn btn-secondary">Short Answer</button>
+
+  <hr>
+
+  <button type="button" class="btn btn-success">Submit</button>
 
 </form>
 

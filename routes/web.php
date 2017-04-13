@@ -17,6 +17,11 @@ Route::get('/', function () {
 
 Route::get('/pages/create', 'PollController@create');
 
-Route::get('/faq', function () {
+
+Route::get('/pages/faq', function () {
     return view('pages/faq');
+});
+
+Route::get('/pages/profile', function () {
+    return view('pages/profile');
 });
