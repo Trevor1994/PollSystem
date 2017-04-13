@@ -6,7 +6,7 @@
 
 <hr>
 
-<form>
+<form method="POST" action="/polls">
   <div class="form-group">
     <label for="title">Title:</label>
     <input type="title" class="form-control" id="title" name="title">
