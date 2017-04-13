@@ -22,6 +22,6 @@ Route::get('/pages/faq', function () {
     return view('/pages/faq');
 });
 
-Route::get('/pages/profil', function () {
+Route::get('/pages/profile', function () {
     return view('pages/profile');
 });

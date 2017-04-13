@@ -23,6 +23,9 @@ body {
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
 }
 
+hr {
+  border: 1px solid rgb(228, 99, 5);
+}
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
