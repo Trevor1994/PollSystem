@@ -11,13 +11,19 @@ class PollController extends Controller
     public function index()
 
     {
-       return view('polls.home');
+       return view('pages/create');
+    }
+
+    public function show()
+
+    {
+      return view('pages/create');
     }
 
     public function create()
 
     {
-      return view('polls.create')
+      return view('pages/create');
     }
 
 }

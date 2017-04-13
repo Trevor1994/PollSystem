@@ -15,9 +15,7 @@ Route::get('/', function () {
     return view('pages/home');
 });
 
-Route::get('/create', function () {
-    return view('pages/create', 'PollController@create');
-});
+Route::get('/pages/create', 'PollController@create');
 
 Route::get('/faq', function () {
     return view('pages/faq');
