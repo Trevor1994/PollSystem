@@ -22,12 +22,18 @@ class PollController extends Controller
     public function store()
 
     {
+      $this->validate(request(), [
+        'title' => 'required',
+        'description' => 'required'
+      ]);
+
         // Create a new post using the request data
         dd(request()->all());
 
         // Save it to the database
 
         // And then redirect to the home page
+        return redirect('/');
     }
 
 }

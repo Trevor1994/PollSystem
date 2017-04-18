@@ -28,8 +28,13 @@
 
   <hr>
 
-  <button type="button" class="btn btn-success">Submit</button>
+  <div class="form-group">
+
+    <button type="submit" class="btn btn-success">Submit</button>
+
+  </div>
+
+  @include ('layouts.errors')
 
 </form>
-
 @endsection

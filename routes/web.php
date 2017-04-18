@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 Route::get('/pages/create', 'PollController@create');
 
-Route::post('/poll', 'PollController@store');
+Route::post('pages/home', 'PollController@store');
 
 
 Route::get('/pages/faq', function () {
