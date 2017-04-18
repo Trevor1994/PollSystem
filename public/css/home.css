@@ -72,7 +72,7 @@ hr {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255,255,255,.25);
+  border-bottom-color: rgb(228, 99, 5);
 }
 
 .nav-masthead .nav-link + .nav-link {

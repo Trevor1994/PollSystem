@@ -7,7 +7,7 @@
 
 <hr>
 
-<form method="POST" action="/polls">
+<form method="POST" action="/pages/home">
     {{ csrf_field() }}
 
   <div class="form-group">
