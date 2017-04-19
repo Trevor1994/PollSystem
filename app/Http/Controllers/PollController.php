@@ -12,7 +12,9 @@ class PollController extends Controller
     public function index()
 
     {
-      return view('pages.home');
+      $polls = Poll:all();
+
+      return view('pages.home', compact('polls'));
     }
 
     public function create()
