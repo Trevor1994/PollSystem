@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Poll;
+
 class PollController extends Controller
 
 {
@@ -24,15 +26,20 @@ class PollController extends Controller
     {
       $this->validate(request(), [
         'title' => 'required',
-        'description' => 'required'
+        'body' => 'required'
       ]);
 
-        // Create a new post using the request data
-        dd(request()->all());
+        // Create a new poll using the request data
+        $poll = new Poll;
+
+        $poll->title = request('title');
+
+        $poll->body = request('body');
 
         // Save it to the database
+        $poll->save();
 
-        // And then redirect to the home page
+        // redirect to the home page
         return redirect('/');
     }
 

@@ -12,12 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('pages/home');
+    return view('/pages/home');
 });
 
 Route::get('/pages/create', 'PollController@create');
 
-Route::post('pages/home', 'PollController@store');
+Route::post('/pages/home', 'PollController@store');
 
 
 Route::get('/pages/faq', function () {

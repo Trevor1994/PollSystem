@@ -16,8 +16,8 @@
   </div>
 
   <div class="form-group">
-    <label for="description">Description:</label>
-    <textarea id="description" name="description" class="form-control"></textarea>
+    <label for="body">Poll Body:</label>
+    <textarea id="body" name="body" class="form-control"></textarea>
   </div>
 
   <button type="button" class="btn btn-secondary">Multi-Choice</button>
