@@ -27,3 +27,7 @@ Route::get('/pages/faq', function () {
 Route::get('/pages/profile', function () {
     return view('pages/profile');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
