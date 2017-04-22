@@ -42,7 +42,7 @@ class PollController extends Controller
         $poll->save();
 
         // redirect to the home page
-        return redirect('/');
+        return redirect('/home');
     }
 
 }

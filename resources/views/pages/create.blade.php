@@ -1,5 +1,7 @@
 @extends ('layouts.app')
 
+<script type="text/javascript" src="{!! asset('js/functions.js') !!}"></script>
+
 @section ('content')
 
 
@@ -20,7 +22,20 @@
     <textarea id="body" name="body" class="form-control"></textarea>
   </div>
 
-  <button type="button" class="btn btn-secondary">Multi-Choice</button>
+  <button type="button" class="btn btn-secondary" button onclick="myFunction()">Multi-Choice</button>
+
+  <div id="multi">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="input-group">
+          <span class="input-group-addon">
+            <input type="checkbox" aria-label="Checkbox for following text input">
+          </span>
+          <input type="text" class="form-control" aria-label="Text input with checkbox">
+        </div>
+      </div>
+    </div>
+  </div>
 
   <button type="button" class="btn btn-secondary">True/False</button>
 
