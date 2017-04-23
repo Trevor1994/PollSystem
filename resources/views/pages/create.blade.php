@@ -4,7 +4,6 @@
 
 @section ('content')
 
-
 <h1>Create a Poll</h1>
 
 <hr>
@@ -22,30 +21,32 @@
     <textarea id="body" name="body" class="form-control"></textarea>
   </div>
 
-  <button type="button" class="btn btn-secondary" button onclick="myFunction()">Multi-Choice</button>
+  <button type="button" class="btn btn-primary" button onclick="myFunction()">Multiple-Choice</button>
 
-  <div id="multi">
+  <button type="button" id="add" class="btn btn-secondary" onclick="clone();">Add Question</button>
+
+<div id="container">
+  <div id="multi" style="margin: 20px;">
     <div class="row">
       <div class="col-lg-6">
-        <div class="input-group">
+        <div id="question" class="input-group">
           <span class="input-group-addon">
             <input type="checkbox" aria-label="Checkbox for following text input">
           </span>
-          <input type="text" class="form-control" aria-label="Text input with checkbox">
+          <input type="text" class="form-control" aria-label="Text input with checkbox" style="padding-bottom: 20px;">
         </div>
       </div>
     </div>
   </div>
+</div>  
 
-  <button type="button" class="btn btn-secondary">True/False</button>
-
-  <button type="button" class="btn btn-secondary">Short Answer</button>
 
   <hr>
 
   <div class="form-group">
 
     <button type="submit" class="btn btn-success">Submit</button>
+
 
   </div>
 
