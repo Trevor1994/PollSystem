@@ -21,9 +21,9 @@
     <textarea id="body" name="body" class="form-control"></textarea>
   </div>
 
-  <button type="button" class="btn btn-primary" button onclick="myFunction()">Multiple-Choice</button>
+  <button type="button" class="btn btn-primary">Multiple-Choice</button>
 
-  <button type="button" id="add" class="btn btn-secondary" onclick="clone();">Add Question</button>
+  <button type="button" id="add" class="btn btn-secondary" onclick="clone(); countClicks()";>Add Question</button>
 
 <div id="container">
   <div id="multi" style="margin: 20px;">
@@ -38,7 +38,7 @@
       </div>
     </div>
   </div>
-</div>  
+</div>
 
 
   <hr>
